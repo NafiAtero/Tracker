@@ -1,3 +1,5 @@
+from Track import Track
+
 class Music:
-    def __init__(self, tempo=120) -> None:
-        self.tempo = tempo
+    def __init__(self) -> None:
+        self.track1 = Track
