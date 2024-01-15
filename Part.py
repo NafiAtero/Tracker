@@ -1,10 +1,7 @@
 
 
 class Part:
-    def __init__(self, bpm, cells_per_beat, part_length) -> None:
-        self.bpm = bpm
-        self.cells_per_beat = cells_per_beat
-        self.part_length = part_length
+    def __init__(self) -> None:
         
         self.notes = []
 
